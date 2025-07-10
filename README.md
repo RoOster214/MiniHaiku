@@ -3,6 +3,11 @@
 A sophisticated educational AI implementing cutting-edge transformer architectures with integrated reasoning capabilities.
 
 ## Key Features
+-40.8M parameters
+-22.6M - 8 transformer layers (2.8M each)
+-1.9M - Reasoning module with complexity assessment
+-0.5K - Layer normalization components
+-"Efficient architecture achieving 49x compression from 2B target
 - Grouped Query Attention (GQA) with 4:1 ratio
 - Rotary Position Embeddings (RoPE) 
 - SwiGLU activations
@@ -15,5 +20,5 @@ A sophisticated educational AI implementing cutting-edge transformer architectur
 - 8 transformer layers with advanced attention mechanisms
 - Reasoning integration at 75% model depth
 - Mixed precision training for memory efficiency
-
-Built with passion for advancing educational AI and making learning more accessible.
+  -Advanced attention mechanisms reducing memory by 75% during inference
+Built with passion to help cultivate a deep personal understanding of systems like Claude, and hopefully contribute meaningfully to the field of AI.
