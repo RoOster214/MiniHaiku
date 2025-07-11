@@ -5,7 +5,7 @@ from dataclasses import dataclass, field, asdict
 @dataclass
 class ValidationConfig:
     hidden_dim: int = 512
-    num_layers: int = 8
+    num_layers: int = 16
     num_attention_heads: int = 8
     num_kv_heads: int = 2
     intermediate_dim: int = 1408
@@ -242,14 +242,14 @@ def create_validation_config() -> ValidationConfig:
 
 def create_minimal_config() -> ValidationConfig:
     config = ValidationConfig(
-        hidden_dim=384, 
-        num_layers=6, 
-        num_attention_heads=6, 
+        hidden_dim=448, 
+        num_layers=16, 
+        num_attention_heads=8, 
         num_kv_heads=2, 
-        intermediate_dim=1024, 
-        reasoning_dim=192, 
-        reasoning_heads=3, 
-        max_position_embeddings=512
+        intermediate_dim=1232, 
+        reasoning_dim=224, 
+        reasoning_heads=4, 
+        max_position_embeddings=768
     )
     config.checkpoint_layers = [layer for layer in [2, 4, 5] if layer < config.num_layers]
     config.validate_config()
