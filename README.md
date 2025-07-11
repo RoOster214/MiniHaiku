@@ -16,7 +16,7 @@
 - Auto-resume training with checkpoint management
 
 ## Architecture
-- 50M parameter validation model (designed to scale to 2B+)
+- 70M parameter validation model (designed to scale to 2B+)
 - 16 transformer layers with advanced attention mechanisms
 - Reasoning integration at 75% model depth
 - Mixed precision training for memory efficiency
