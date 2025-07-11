@@ -1,10 +1,10 @@
 # Educational AI - Advanced LM with Reasoning
 
-A sophisticated educational AI implementing cutting-edge transformer architectures with integrated reasoning capabilities.
+- AI implementing cutting-edge transformer architectures with integrated reasoning capabilities.
 
 ## Key Features
--40.8M parameters
--22.6M - 8 transformer layers (2.8M each)
+-72.6M parameters
+-16 transformer layers (2.8M each)
 -1.9M - Reasoning module with complexity assessment
 -0.5K - Layer normalization components
 -"Efficient architecture achieving 49x compression from 2B target
