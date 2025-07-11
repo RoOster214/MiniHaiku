@@ -17,7 +17,7 @@ A sophisticated educational AI implementing cutting-edge transformer architectur
 
 ## Architecture
 - 50M parameter validation model (designed to scale to 2B+)
-- 8 transformer layers with advanced attention mechanisms
+- 16 transformer layers with advanced attention mechanisms
 - Reasoning integration at 75% model depth
 - Mixed precision training for memory efficiency
   -Advanced attention mechanisms reducing memory by 75% during inference
